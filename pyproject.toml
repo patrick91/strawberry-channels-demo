@@ -1,0 +1,20 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Patrick Arminio", email = "patrick.arminio@gmail.com"},
+]
+dependencies = [
+    "django>=4.1",
+    "strawberry-graphql>=0.124.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]

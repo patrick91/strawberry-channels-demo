@@ -4,8 +4,9 @@ authors = [
 ]
 dependencies = [
     "django>=4.1",
-    "strawberry-graphql==0.125.0.dev1660322955",
+    "strawberry-graphql>=0.154.0",
     "channels>=3.0.5",
+    "daphne>=4.0.0",
 ]
 description = ""
 license = {text = "MIT"}
